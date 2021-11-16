@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Image Classes */
+
+.icon {
+    width: 25px;
+    height: 25px;
+    filter: invert(50%);
+    margin-right: 10px;
+}
+
+.contimage {
+    height: 270px;
+    width: 250px;
+}
+
+.cardimg {
+    height: 400px;
+    width: 450px;
+}
+
+.cardimg:hover {
+    animation: drop 1.5s ease;
+}
+
+
+/* Font Classes */
+
+.fontEczar {
+    font-family: 'Eczar', serif !important;
+}
+
+.paraDMSerif {
+    font-family: 'DM Serif Display', serif;
+}
+
+
+/* Button Class  */
+
+.cardbtn {
+    margin: auto;
+    padding: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Text style */
+
+.black {
+    color: rgb(37, 37, 37) !important;
+}
+
+.fontBold {
+    font-weight: bolder !important;
+    font-size: 1.2rem !important;
+}
+
+.fontbold {
+    font-weight: bold !important;
+}
+
+.underline {
+    text-decoration: underline !important;
+}
+
+
+/* Animation  */
+
+@keyframes drop {
+    0% {
+        opacity: 0.1;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
