@@ -7,8 +7,8 @@
 /* Image Classes */
 
 .icon {
-    width: 25px;
-    height: 25px;
+    width: 33px;
+    height: 30px;
     filter: invert(50%);
     margin-right: 10px;
 }
